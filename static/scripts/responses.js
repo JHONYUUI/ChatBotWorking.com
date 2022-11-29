@@ -57,3 +57,23 @@ function getBotResponse(input) {
         return "I do not understand try asking something else!";
     }
 }
+
+function getBotResponse(input) {
+    //rock paper scissors
+    if (input == "good") {
+        return "That's good to hear!";
+    } else if (input == "Good.") {
+        return "That's brilliant to hear!";
+    } else if (input == "Good!") {
+        return "Nice to hear that!";
+    }
+
+    // Simple responses
+    if (input == "bye") {
+        return "See ya later!";
+    } else if (input == "goodbye") {
+        return "Bye! I hope you had a nice time speaking to me!";
+    } else {
+        return "I do not understand try asking something else!";
+    }
+}
